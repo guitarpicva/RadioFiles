@@ -1,0 +1,39 @@
+{
+    "autoTune": "",
+    "radioName":"IC-705",
+    "controlType": "BINARY",
+    "connectionMethod": "SERIAL",
+    "radioAddress": "ttyACM0",
+    "serialBaudRate": 115200,
+    "serialParams": "8N1",
+    "serialFlowControl": "No Flow Control",
+    "tcpPortNumber": -1,
+    "initialSetup": "FEFEA4E00700FD,FEFEA4E0010101FD,FEFEA4E01A060101FD",
+    "pttOn": "FEFEA4E01C0001FD",
+    "pttOff": "FEFEA4E01C0000FD",
+    "pttData": "",
+    "splitOn": "FEFEA4E00F01",
+    "splitOff": "FEFEA4E00F00",
+    "toVFOA": "",
+    "toVFOB": "",
+    "txTail": 20,
+    "modeList": {
+        "USB":   "FEFEA4E0010101FD",
+        "LSB":   "FEFEA4E0010001FD",
+        "CW":    "FEFEA4E0010302FD",
+        "AM":    "FEFEA4E0010201FD",
+        "FM":    "FEFEA4E0010501FD",
+        "WFM":   "FEFEA4E0010601FD",
+        "RTTY":  "FEFEA4E0010401FD",
+        "DATA1": "FEFEA4E01A060101FD",
+        "DATA2": "FEFEA4E01A060102FD",
+        "DATA3": "FEFEA4E01A060103FD"
+    },    
+    "frequencyControl": {
+        "order": "CI-V",
+        "numDigits": 10,
+        "prefixA": "FEFEA4E005",
+        "prefixB": "FEFEA4E005",
+        "suffix": "FD"
+    }
+}

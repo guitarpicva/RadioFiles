@@ -1,0 +1,34 @@
+{
+    "autoTune": "AC002;",
+    "controlType": "ASCII",
+    "connectionMethod": "SERIAL",
+    "initialSetup": "VS0;,MD0C;,SH031;,AI0;",
+    "modeList": {
+        "USB": "MD02;",
+        "LSB": "MD01;",
+        "CW": "MD03;",
+        "AM": "MD05;",
+        "DATA1": "MD08;",
+        "DATA2": "MD0C;",
+        "DATA3": ";"
+    },
+    "pttData": "TX1;",
+    "pttOff": "TX0;",
+    "pttOn": "TX1;",
+    "radioAddress": "ttyUSB0",
+    "radioName":"FT-450D",
+    "serialBaudRate": 38400,
+    "serialFlowControl": "No Flow Control",
+    "serialParams": "8N1",
+    "splitOff": "FT0;",
+    "splitOn": "FT1;",
+    "tcpPortNumber": 9873,
+    "txTail": 20,    
+    "frequencyControl": {
+        "order": "NORMAL",
+        "numDigits": 8,
+        "prefixA": "FA",
+        "prefixB": "FB",
+        "suffix": ";"
+    }
+}

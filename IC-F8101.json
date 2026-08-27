@@ -1,0 +1,41 @@
+{
+    "autoTune": "",
+    "radioName":"IC-F8101",
+    "controlType": "BINARY",
+    "connectionMethod": "SERIAL",
+    "radioAddress": "ttyUSB2",
+    "serialBaudRate": 38400,
+    "serialParams": "8N1",
+    "serialFlowControl": "No Flow Control",
+    "tcpPortNumber": -1,
+    "initialSetup": "FEFE8AE00700FD",
+    "pttOn": "FEFE8AE01A370002FD",
+    "pttOff": "FEFE8AE01A370000FD",
+    "pttData": "",
+    "splitOn": "FEFE8AE01A0503170001FD",
+    "splitOff": "FEFE8AE01A0503170000FD",
+    "txTail": 20,
+    "toVFOA": "FEFE8AE00700FD",
+    "toVFOB": "FEFE8AE00701FD",
+    "modeList": {
+        "USB": "FEFE8AE01A360001FD",
+        "LSB": "FEFE8AE01A360000FD",
+        "CW": "FEFE8AE01A360003FD",
+        "AM": "FEFE8AE01A360002FD",
+        "FM": "",
+        "RTTY": "FEFE8AE01A360004FD",
+        "DATA1": "FEFE8AE01A360019FD",
+        "DATA2": "FEFE8AE01A360021FD",
+        "DATA3": "FEFE8AE01A360023FD",
+        "DATA1L": "FEFE8AE01A360018FD",
+        "DATA2L": "FEFE8AE01A360020FD",
+        "DATA3L": "FEFE8AE01A360022FD"
+    },    
+    "frequencyControl": {
+        "order": "CI-V",
+        "numDigits": 10,
+        "prefixA": "FEFE8AE01A35",
+        "prefixB": "FEFE8AE01A35",
+        "suffix": "FD"
+    }    
+}
