@@ -14,8 +14,8 @@
     "pttData": "",
     "splitOn": "FEFEA4E00F01",
     "splitOff": "FEFEA4E00F00",
-    "toVFOA": "",
-    "toVFOB": "",
+    "toVFOA": "FEFEA4E00700",
+    "toVFOB": "FEFEA4E00701",
     "txTail": 20,
     "modeList": {
         "USB":   "FEFEA4E0010101FD",
