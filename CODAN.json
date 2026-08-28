@@ -4,13 +4,13 @@
     "connectionMethod": "TCP",
     "initialSetup": "scan off\r,scan off\r,echo off\rlogin admin ''\r",
     "modeList": {
-        "USB": "MODE USB",
-        "LSB": "MODE LSB",
-        "CW": "MODE CW",
-        "AM": "MODE AM",
-        "DATA1": "MODE LSBW",
-        "DATA2": "MODE USBW",
-        "DATA3": "MODE USBW"
+        "USB": "MODE USB\r",
+        "LSB": "MODE LSB\r",
+        "CW": "MODE CW\r",
+        "AM": "MODE AM\r",
+        "DATA1": "MODE LSBW\r",
+        "DATA2": "MODE USBW\r",
+        "DATA3": "MODE USBW\r"
     },
     "pttData": "PTT ON DATA\r",
     "pttOff": "PTT OFF\r",
@@ -23,10 +23,12 @@
     "splitOff": "",
     "splitOn": "",
     "tcpPortNumber": 23,
+    "toVFOA": "",
+    "toVFOB": "",
     "txTail": 20,    
     "frequencyControl": {
         "order": "NORMAL",
-        "numDigits": 8,
+        "numDigits": 0,
         "prefixA": "CONNECT TCVR RF ",
         "prefixB": "CONNECT TCVR RF ",
         "suffix": "\r"

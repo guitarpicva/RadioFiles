@@ -1,0 +1,34 @@
+{
+    "autoTune": "",
+    "controlType": "ASCII",
+    "connectionMethod": "SERIAL",
+    "initialSetup": "",
+    "modeList": {
+        "USB": "",
+        "LSB": "",
+        "CW": "",
+        "AM": "",
+        "DATA1": "",
+        "DATA2": "",
+        "DATA3": ""
+    },
+    "pttData": "",
+    "pttOff": "",
+    "pttOn": "",
+    "radioAddress": "ttyUSB0",
+    "radioName":"RADIO NAME",
+    "serialBaudRate": 38400,
+    "serialFlowControl": "No Flow Control",
+    "serialParams": "8N1",
+    "splitOff": "",
+    "splitOn": "",
+    "tcpPortNumber": 9873,
+    "txTail": 20,    
+    "frequencyControl": {
+        "order": "NORMAL",
+        "numDigits": 10,
+        "prefixA": "FA",
+        "prefixB": "FB",
+        "suffix": ";"
+    }
+}
