@@ -1,16 +1,17 @@
 {
     "autoTune": "",
     "radioName":"IC-705",
-    "controlType": "BINARY",
+    "commandTimeout": 50,
     "connectionMethod": "SERIAL",
     "radioAddress": "ttyACM0",
     "serialBaudRate": 115200,
     "serialParams": "8N1",
     "serialFlowControl": "No Flow Control",
     "tcpPortNumber": -1,
-    "initialSetup": "FEFEA4E00700FD,FEFEA4E0010101FD,FEFEA4E01A060101FD",
-    "pttOn": "FEFEA4E01C0001FD",
-    "pttOff": "FEFEA4E01C0000FD",
+    "initialSetup": "FEFEA4E00700,FEFEA4E0010101,FEFEA4E01A060101",
+    "portTimeout": 40,
+    "pttOn": "FEFEA4E01C0001",
+    "pttOff": "FEFEA4E01C0000",
     "pttData": "",
     "splitOn": "FEFEA4E00F01",
     "splitOff": "FEFEA4E00F00",
@@ -18,16 +19,16 @@
     "toVFOB": "FEFEA4E00701",
     "txTail": 20,
     "modeList": {
-        "USB":   "FEFEA4E0010101FD",
-        "LSB":   "FEFEA4E0010001FD",
-        "CW":    "FEFEA4E0010302FD",
-        "AM":    "FEFEA4E0010201FD",
-        "FM":    "FEFEA4E0010501FD",
-        "WFM":   "FEFEA4E0010601FD",
-        "RTTY":  "FEFEA4E0010401FD",
-        "DATA1": "FEFEA4E01A060101FD",
-        "DATA2": "FEFEA4E01A060102FD",
-        "DATA3": "FEFEA4E01A060103FD"
+        "USB":   "FEFEA4E0060101",
+        "LSB":   "FEFEA4E0060001",
+        "CW":    "FEFEA4E0060302",
+        "AM":    "FEFEA4E0060201",
+        "FM":    "FEFEA4E0060501",
+        "WFM":   "FEFEA4E0060601",
+        "RTTY":  "FEFEA4E0060401",
+        "DATA1": "FEFEA4E0060101,FEFEA4E01A060101",
+        "DATA2": "FEFEA4E0060101,FEFEA4E01A060102",
+        "DATA3": "FEFEA4E0060101,FEFEA4E01A060103"
     },    
     "frequencyControl": {
         "order": "CI-V",
@@ -35,5 +36,16 @@
         "prefixA": "FEFEA4E005",
         "prefixB": "FEFEA4E005",
         "suffix": "FD"
+    },
+    "queryCommands": {
+        "mode": "FEFEA4E004,FEFEA4E01A06",
+        "modeResponsePrefix": "FEFEE0A404,FEFEE0A41A06",
+        "vfo": "",
+        "vfoAFreq": "FEFEA4E003",
+        "vfoAFreqResponse": "FEFEE0A403",
+        "vfoAResponse": "",
+        "vfoBFreq": "FEFEA4E003",
+        "vfoBFreqResponse": "FEFEE0A403",
+        "vfoBResponse": ""
     }
 }
