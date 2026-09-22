@@ -43,5 +43,7 @@
     "serialFlowControl": "No Flow Control",
     "serialParams": "8N1",
     "radioTcpPortNumber": 9873,
+    "toVFOA": "VS0",
+    "toVFOB": "VS1",
     "txTail": 20
 }

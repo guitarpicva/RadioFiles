@@ -22,7 +22,7 @@
         "USB": "FEFEA4E0010101"
     },
     "portTimeout": 10,
-    "pttData": "",
+    "pttData": "FEFEA4E01C0001",
     "pttOff": "FEFEA4E01C0000",
     "pttOn": "FEFEA4E01C0001",
     "queryCommands": {
@@ -35,11 +35,14 @@
         "vfoBFreqResponse": "FEFEE0A403",
         "vfoBResponse": ""
     },
-    "radioAddress": "TTYACM0",
+    "radioAddress": "ttyACM0",
     "radioName": "IC-705",
     "serialBaudRate": 115200,
     "serialFlowControl": "No Flow Control",
     "serialParams": "8N1",
     "radioTcpPortNumber": 0,
+    "toggleSplit": "",
+    "toVFOA": "FEFEA4E00700",
+    "toVFOB": "FEFEA4E00701",
     "txTail": 20
 }
