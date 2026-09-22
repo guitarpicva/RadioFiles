@@ -1,6 +1,5 @@
 {
     "autoTune": "TUNE AUTO\r",
-    "commandTimeout": 40,
     "connectionMethod": "TCP",
     "initialSetup": "scan off\r,scan off\r,echo off\rlogin admin ''\r",
     "modeList": {
@@ -12,7 +11,6 @@
         "DATA2": "MODE USBW\r",
         "DATA3": "MODE USBW\r"
     },
-    "portTimeout": 30,
     "pttData": "PTT ON DATA\r",
     "pttOff": "PTT OFF\r",
     "pttOn": "PTT ON\r",
@@ -26,18 +24,17 @@
         "vfoAResponse": "",
         "vfoBFreq": "",
         "vfoBResponse": ""
-    },
-    "serialBaudRate": 38400,
+    },"serialBaudRate": 38400,
     "serialFlowControl": "No Flow Control",
     "serialParams": "8N1",
     "splitOff": "",
     "splitOn": "",
-    "tcpPortNumber": 23,
+    "radioTcpPortNumber": 23,
     "toVFOA": "connect tcvr rf 14000000 14000000\r",
     "toVFOB": "connect tcvr rf 14000000 14000000\r",
     "txTail": 20,    
     "frequencyControl": {
-        "order": "CAT",
+        "order": "NORMAL",
         "numDigits": 8,
         "prefixA": "CONNECT TCVR RF ",
         "prefixB": "CONNECT TCVR RF ",

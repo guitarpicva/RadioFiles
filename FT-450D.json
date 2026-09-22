@@ -7,9 +7,11 @@
         "order": "CAT",
         "prefixA": "FA",
         "prefixB": "FB",
-        "suffix": ";"
+        "suffix": ";",
+        "toVFOA": "VS0",
+        "toVFOB": "VS1"
     },
-    "initialSetup": "VS0,MD02,SH031,AI0",
+    "initialSetup": "VS0,MD0C,SH031,AI0",
     "modeList": {
         "AM": "MD05",
         "CW": "MD03",
@@ -23,9 +25,7 @@
     "portTimeout": 40,
     "pttData": "TX1",
     "pttOff": "TX0",
-    "pttOn": "TX2",
-    "toVFOA": "VS0",
-    "toVFOB": "VS1",
+    "pttOn": "TX1",
     "queryCommands": {
         "mode": "MD0",
         "modeResponsePrefix": "MD0",
@@ -34,7 +34,7 @@
         "vfoAFreqResponse": "FA",
         "vfoAResponse": "VS0",
         "vfoBFreq": "FB",
-        "vfoAFreqResponse": "FB",
+        "vfoBFreqResponse": "FB",
         "vfoBResponse": "VS1"
     },
     "radioAddress": "ttyUSB0",
@@ -42,6 +42,6 @@
     "serialBaudRate": 38400,
     "serialFlowControl": "No Flow Control",
     "serialParams": "8N1",
-    "tcpPortNumber": 9873,
+    "radioTcpPortNumber": 9873,
     "txTail": 20
 }

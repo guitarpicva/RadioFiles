@@ -2,6 +2,7 @@
     "autoTune": "",
     "commandTimeout": 20,
     "connectionMethod": "SERIAL",
+    "controlType": "BINARY",
     "frequencyControl": {
         "numDigits": 8,
         "order": "BCD",
@@ -35,11 +36,11 @@
         "vfoBFreqResponse": "",
         "vfoBResponse": ""
     },
-    "radioAddress": "ttyUSB0",
+    "radioAddress": "TTYUSB0",
     "radioName": "FT-857D",
     "serialBaudRate": 38400,
     "serialFlowControl": "No Flow Control",
     "serialParams": "8N1",
-    "tcpPortNumber": 9873,
+    "radioTcpPortNumber": 9873,
     "txTail": 20
 }
