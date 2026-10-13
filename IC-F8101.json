@@ -1,5 +1,5 @@
 {
-    "autoTune": "",
+    "autoTune": "FEFE8AE01C0102",
     "radioName":"IC-F8101",
     "controlType": "BINARY",
     "connectionMethod": "SERIAL",
